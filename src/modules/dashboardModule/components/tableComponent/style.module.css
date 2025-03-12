@@ -1,0 +1,96 @@
+.tableContainer {
+    width: var(--container-width);
+    overflow-x: auto;
+}
+
+.customTable {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 5px;
+    margin-top: 20px;
+}
+
+.customTable th {
+    cursor: pointer;
+    text-align: left;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 11px;
+    color: #999999;
+    letter-spacing: 0.5px;
+    padding-bottom: 5px;
+}
+
+.cell {
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+
+.customTable th .sort-arrow {
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+.customTable th:first-child {
+    padding-left: 20px;
+}
+
+.customTable td {
+    height: var(--cell-height);
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.customTable td:first-child {
+    border-left: 1px solid var(--border-color);
+    border-radius: 3px;
+    padding-left: var(--padding);
+}
+
+.customTable td:last-child {
+    border-right: 1px solid var(--border-color);
+    border-radius: 3px;
+}
+
+.customTable > tbody tr {
+    background-color: #fff;
+    border: 1px solid var(--row-border);
+    border-radius: var(--row-radius);
+    transition: box-shadow 0.3s ease-in-out;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.customTable > tbody tr:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.flex {
+    display: flex;
+    height: 100%;
+}
+
+.action-btn {
+    padding: var(--btn-padding);
+    background-color: var(--btn-bg);
+    color: white;
+    border: none;
+    border-radius: var(--btn-radius);
+    cursor: pointer;
+}
+
+.action-btn:hover {
+    background-color: var(--btn-bg-hover);
+}
+
+.up {
+    transform: rotate(180deg);
+}
+
+.down {
+    transform: rotate(0deg);
+}

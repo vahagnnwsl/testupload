@@ -1,0 +1,13 @@
+.mainContainer {
+    padding: 30px;
+    height: 100%;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title {
+    font-size: 26px;
+    margin-bottom: 20px;
+}

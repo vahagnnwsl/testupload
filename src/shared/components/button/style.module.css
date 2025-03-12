@@ -1,0 +1,17 @@
+.action{
+    width: 95px;
+    height: 30px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+    font-size:12px;
+    border:none
+}
+
+.result{
+    background-color: #2EE5AC;
+}
+
+.finalize{
+    background-color: #7D7D7D;
+}

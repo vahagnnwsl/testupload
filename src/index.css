@@ -1,0 +1,31 @@
+:root {
+  --container-width: 100%;
+  --padding: 10px;
+  --cell-height: 70px;
+  --border-color: #ddd;
+  --row-border: gray;
+  --row-radius: 8px;
+  --btn-bg: #4CAF50;
+  --btn-bg-hover: #45a049;
+  --btn-padding: 6px 12px;
+  --btn-radius: 4px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #FAFAFA;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, button {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.5px;
+}
+
+p, span, div,th,td {
+  font-family: 'Roboto', sans-serif;
+}
